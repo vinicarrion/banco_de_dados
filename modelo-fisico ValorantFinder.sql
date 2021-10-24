@@ -4,7 +4,7 @@ use ValorantFinder
 create table Jogadores(
 id integer auto_increment not null,
 usuario varchar(70) not null,
-senha varchar(20) not null,
+senha varchar(100) not null,
 email varchar(45) not null,
 apelido varchar(30) not null,
 contato varchar(50) not null,
